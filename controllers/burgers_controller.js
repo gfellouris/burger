@@ -4,7 +4,9 @@ var burgers = require("../models/burger.js");
 
 router.get("/", function(req, res) {
   burgers.all(function(data) {
-    res.json(data);
+    // res.json(data);
+    var hbsObject = { burgers: data };
+    res.render("index", hbsObject);
   });
 });
 
