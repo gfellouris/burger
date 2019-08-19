@@ -1,12 +1,13 @@
 .burgerBackground {
   background-image: url("../img/burger_bg.jpg");
-  background-size: cover;
+  /* background-size: cover; */
   background-attachment: scroll;
   background-repeat: no-repeat;
   padding-top: 40px;
   margin: 0em;
   width: 100%;
   height: auto;
+  background-size: 100% 100%;
 }
 
 .jumbotron {
@@ -15,7 +16,6 @@
 }
 
 .card {
-  width: 800px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
